@@ -1,0 +1,46 @@
+{
+  "availabilities": [
+    {
+      "id": 1,
+      "vehicle_id": 2,
+      "start_at": "2016-10-01T15:00:00+02:00",
+      "end_at": "2016-10-13T23:59:59+02:00"
+    },
+    {
+      "id": 2,
+      "vehicle_id": 2,
+      "start_at": "2016-10-14T15:00:00+02:00",
+      "end_at": "2023-10-14T23:59:59+02:00"
+    }
+  ],
+  "vehicles": [
+     {
+      "id": 1,
+      "hourly_price": 100,
+      "daily_price": 4500,
+      "weekly_price": 12000,
+      "kilometer_price": 60
+    },
+    {
+      "id": 2,
+      "hourly_price": 250,
+      "daily_price": 5000,
+      "weekly_price": 1500,
+      "kilometer_price": 90
+    }
+  ],
+  "bookings": [
+    {
+      "id": 2,
+      "vehicle_id": 2,
+      "start_at": "2016-10-03T15:00:00+02:00",
+      "end_at": "2016-10-03T16:00:00+02:00"
+    },
+    {
+      "id": 3,
+      "vehicle_id": 2,
+      "start_at": "2016-10-05T16:00:00+02:00",
+      "end_at": "2016-10-06T15:00:00+02:00"
+    }
+  ]
+}

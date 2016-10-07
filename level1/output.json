@@ -1,0 +1,12 @@
+{
+  "results": [
+    {
+      "vehicle_id": 1,
+      "total_price": 18625
+    },
+    {
+      "vehicle_id": 2,
+      "total_price": 15000
+    }
+  ]
+}

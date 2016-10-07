@@ -1,0 +1,46 @@
+{
+  "bookings": [
+    {
+      "id": 2,
+      "vehicle_id": 2,
+      "start_at": "2016-10-03T15:00:00+02:00",
+      "end_at": "2016-10-03T16:15:00+02:00"
+    },
+    {
+      "id": 3,
+      "vehicle_id": 2,
+      "start_at": "2016-10-06T15:00:00+02:00",
+      "end_at": "2016-10-07T17:00:00+02:00"
+    }
+  ],
+  "payments": [
+    {
+      "id": 2,
+      "booking_id": 2,
+      "price": 313,
+      "type": "booking"
+    },
+    {
+      "id": 3,
+      "booking_id": 3,
+      "price": 1500,
+      "type": "booking"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "hourly_price": 100,
+      "daily_price": 4500,
+      "weekly_price": 12000,
+      "kilometer_price": 60
+    },
+    {
+      "id": 2,
+      "hourly_price": 250,
+      "daily_price": 5000,
+      "weekly_price": 1500,
+      "kilometer_price": 90
+    }
+  ]
+}

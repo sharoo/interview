@@ -1,0 +1,22 @@
+{
+  "id": 3,
+  "vehicle_id": 2,
+  "start_at": "2016-10-06T15:00:00+02:00",
+  "end_at": "2016-10-07T17:00:00+02:00",
+  "started_at": "2016-10-06T15:25:00+02:00",
+  "ended_at": "2016-10-15T22:15:00+02:00",
+  "payments": [
+    {
+      "id": 3,
+      "booking_id": 3,
+      "price": 1500,
+      "type": "booking"
+    },
+    {
+      "id": 4,
+      "booking_id": 3,
+      "price": 1500,
+      "type": "overdue"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "hourly_price": 100,
+      "daily_price": 4500,
+      "weekly_price": 12000,
+      "kilometer_price": 60
+    },
+    {
+      "id": 2,
+      "hourly_price": 250,
+      "daily_price": 5000,
+      "weekly_price": 1500,
+      "kilometer_price": 90
+    }
+  ]
+}
